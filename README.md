@@ -17,7 +17,7 @@
 
 ### O que a SOPhIA faz
 
-A SOPhIA constrói, para cada criança, um perfil fonológico detalhado — métricas, inventário, processos, padrões. Reunidos vários perfis, o terreno abre-se à análise distribucional, para além da comparação de médias. Cada utilizador selecciona e exporta os indicadores que servem o seu fim, clínico ou de investigação.
+A SOPhIA constrói, para cada criança, um perfil fonológico detalhado — métricas, inventário, processos, padrões. Reunidos vários perfis, o terreno abre-se à análise distribucional. Cada utilizador selecciona e exporta os indicadores que servem o seu fim, clínico ou de investigação.
 
 ### O que a SOPhIA não faz
 
@@ -33,12 +33,12 @@ A SOPhIA aceita o que cada utilizador tiver, e adapta-se ao que cada utilizador 
 
 - **Áudio** gravado durante a sessão clínica, transcrito automaticamente pelo modelo *wav2vec2* PE-tuned, com revisão da terapeuta.
 - **IPA manual**, escrito directamente, sem áudio.
-- **Excel ou CSV** com pares alvo–produção pré-existentes.
+- **Excel ou CSV** com pares alvo–produção pré-existentes - Disponiveis templates para o efeito pretendido.
 - **Par alvo–produção isolado**, para análise pontual.
 
 O léxico-alvo pode vir de protocolos formais — TFF-ALPE, TAV — ou ser definido livremente pela terapeuta. No horizonte, suporte a discurso espontâneo.
 
-Qualquer combinação de entrada é processada pelo mesmo *pipeline* e produz o mesmo perfil fonológico.
+Qualquer combinação de entrada é processada pelo mesmo *pipeline* e produz o perfil fonológico coerente com os dados inseridos.
 
 ### Pipeline
 
