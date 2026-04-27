@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "SOPhIA — System for Output-aligned Phonological Indexing and Annotation"
+message: "If you use SOPhIA in research or clinical work, please cite as below."
+type: software
+authors:
+  - family-names: Miguel
+    given-names: Joana
+    affiliation: "NID CAIDI"
+    email: joana.miguel@caidi.pt
+abstract: >-
+  SOPhIA is a clinical phonological assessment platform for child speech
+  in European Portuguese. For each child, SOPhIA builds a detailed
+  phonological profile — metrics, inventory, processes, patterns. As
+  multiple profiles accumulate, the ground opens up to distributional
+  analysis. Three analyses are available over the profile: Phonoscopium
+  (Alves et al., 2023), MICT.flash (Alves & Lamela, 2023), and Featural
+  Vector Analysis (CAIDI, Miguel — under development).
+keywords:
+  - phonological assessment
+  - speech-language pathology
+  - European Portuguese
+  - child speech
+  - clinical phonology
+  - phonological processes
+  - feature geometry
+year: 2026
+contact:
+  - email: joana.miguel@caidi.pt
+    name: "Joana Miguel"
+  - email: geral@caidi.pt
+    name: "CAIDI (general)"
