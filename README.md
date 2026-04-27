@@ -1,9 +1,6 @@
 <div align="center">
 
 <img src="assets/SOPhIA-Colours.png" alt="SOPhIA" width="650" />
-
-# SOPhIA
-
 **System for Output-aligned Phonological Indexing and Annotation**
 
 *Plataforma de avaliação fonológica clínica de fala infantil em Português Europeu*
