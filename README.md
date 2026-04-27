@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="assets/SOPhiA-coulors.png" alt="SOPhIA" width="800" />
+<img src="assets/SOPhIA-Colours.png" alt="SOPhIA" width="650" />
+
+# SOPhIA
 
 **System for Output-aligned Phonological Indexing and Annotation**
 
@@ -17,7 +19,7 @@
 
 ### O que a SOPhIA faz
 
-A SOPhIA constrói, para cada criança, um perfil fonológico detalhado — métricas, inventário, processos, padrões. Reunidos vários perfis, o terreno abre-se à análise distribucional. Cada utilizador selecciona e exporta os indicadores que servem o seu fim, clínico ou de investigação.
+A SOPhIA constrói, para cada criança, um perfil fonológico detalhado — métricas, inventário, processos, padrões. Reunidos vários perfis, o terreno abre-se à análise distribucional, para além da comparação de médias. Cada utilizador selecciona e exporta os indicadores que servem o seu fim, clínico ou de investigação.
 
 ### O que a SOPhIA não faz
 
@@ -27,10 +29,23 @@ A SOPhIA constrói, para cada criança, um perfil fonológico detalhado — mét
 
 A interpretação clínica é da terapeuta.
 
+### Flexibilidade de entrada
+
+A SOPhIA aceita o que cada utilizador tiver, e adapta-se ao que cada utilizador quiser fazer:
+
+- **Áudio** gravado durante a sessão clínica, transcrito automaticamente pelo modelo *wav2vec2* PE-tuned, com revisão da terapeuta.
+- **IPA manual**, escrito directamente, sem áudio.
+- **Excel ou CSV** com pares alvo–produção pré-existentes.
+- **Par alvo–produção isolado**, para análise pontual.
+
+O léxico-alvo pode vir de protocolos formais — TFF-ALPE, TAV — ou ser definido livremente pela terapeuta. No horizonte, suporte a discurso espontâneo.
+
+Qualquer combinação de entrada é processada pelo mesmo *pipeline* e produz o mesmo perfil fonológico.
+
 ### Pipeline
 
 ```
-[áudio | IPA manual]
+[áudio · IPA manual · Excel/CSV pré-transcrito]
         ↓
 transcrição automática (modelo wav2vec2 PE-tuned)
         ↓
@@ -188,10 +203,23 @@ For each child, SOPhIA builds a detailed phonological profile — metrics, inven
 
 Clinical interpretation is the therapist's.
 
+### Input flexibility
+
+SOPhIA accepts what each user has, and adapts to what each user wants to do:
+
+- **Audio** recorded during the clinical session, automatically transcribed by the PE-tuned *wav2vec2* model, with therapist review.
+- **Manual IPA**, written directly, without audio.
+- **Excel or CSV** with pre-existing target–production pairs.
+- **Isolated target–production pair**, for one-off analysis.
+
+The target lexicon can come from formal protocols — TFF-ALPE, TAV — or be defined freely by the therapist. Spontaneous speech support is on the roadmap.
+
+Any combination of input is processed by the same *pipeline* and yields the same phonological profile.
+
 ### Pipeline
 
 ```
-[audio | manual IPA]
+[audio · manual IPA · pre-transcribed Excel/CSV]
         ↓
 automatic transcription (PE-tuned wav2vec2)
         ↓
@@ -228,6 +256,8 @@ Three analyses are available over the phonological profile. Each selects distinc
 
 #### Phonoscopium
 
+<img src="assets/phonoscopium-logo.png" alt="Phonoscopium" width="120" align="right" />
+
 **Phonoscopium — Phonetic and Phonological Speech Analysis Tool**
 Alves, D. C., Almeida, D., Ferreira, D., Jorge, M., & Silva, M. (2023). School of Health, Polytechnic Institute of Setúbal.
 
@@ -236,6 +266,8 @@ Implicational contrastive analysis, formalised process taxonomy, MICT-PB (Mota, 
 *Digital adaptation to the SOPhIA environment by Joana Miguel, with authorisation from the authoring team.*
 
 #### MICT.flash
+
+<img src="assets/mictflash-logo.png" alt="MICT.flash" width="120" align="right" />
 
 **MICT.flash — Implicational Phonological Speech Analysis Tool**
 Alves, D. C., & Lamela, C. (2023). School of Health, Polytechnic Institute of Setúbal.
