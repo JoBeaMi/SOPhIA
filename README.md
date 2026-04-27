@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/SOPhiA-coulors.png" alt="SOPhIA" width="650" />
+<img src="assets/SOPhiA-coulors.png" alt="SOPhIA" width="800" />
 
 **System for Output-aligned Phonological Indexing and Annotation**
 
@@ -17,7 +17,7 @@
 
 ### O que a SOPhIA faz
 
-A SOPhIA constrói, para cada criança, um perfil fonológico detalhado — métricas, inventário, processos, padrões. Reunidos vários perfis, o terreno abre-se à análise distribucional, para além da comparação de médias. Cada utilizador selecciona e exporta os indicadores que servem o seu fim, clínico ou de investigação.
+A SOPhIA constrói, para cada criança, um perfil fonológico detalhado — métricas, inventário, processos, padrões. Reunidos vários perfis, o terreno abre-se à análise distribucional. Cada utilizador selecciona e exporta os indicadores que servem o seu fim, clínico ou de investigação.
 
 ### O que a SOPhIA não faz
 
