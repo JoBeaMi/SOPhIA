@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="assets/SOPhiA-coulors.png" alt="SOPhIA" width="420" />
-
-# SOPhIA
+<img src="assets/SOPhiA-coulors.png" alt="SOPhIA" width="650" />
 
 **System for Output-aligned Phonological Indexing and Annotation**
 
